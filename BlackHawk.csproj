@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.20" />
+    <MauiIcon Include="Resources/AppIcon/appicon.svg" />
   </ItemGroup>
 
   <!-- The archive contains an older Xamarin.Forms-style source tree with many
