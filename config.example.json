@@ -1,0 +1,11 @@
+{
+  "api": {
+    "news_api_key": "YOUR_NEWS_API_KEY",
+    "reddit_user_agent": "BlackHawkOSINT/1.0"
+  },
+  "features": {
+    "enable_news_search": true,
+    "enable_reddit_search": true,
+    "enable_offline_mode": true
+  }
+}

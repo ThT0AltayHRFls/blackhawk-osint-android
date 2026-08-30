@@ -1,0 +1,60 @@
+MIT License
+
+Copyright (c) 2024 BlackHawk OSINT Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Yasal Uyarı / Legal Disclaimer
+
+Bu yazılım yalnızca **yasal amaçlar** için tasarlanmıştır.
+Kullanıcı tüm sorumluluğu kabul eder.
+
+This software is designed for **legal purposes only**.
+Users accept all responsibility for its usage.
+
+### Sınırlamalar / Restrictions
+
+✅ İzin Verilenler / Allowed:
+- Açık kaynak verileri arama
+- Kamu bilgisi toplama
+- Akademik araştırma
+- Yasal istihbarat toplama
+
+❌ Yasak / Prohibited:
+- Kişisel veri toplama (izinsiz)
+- Sosyal medya scraping
+- Hiçbir şekilde gözetleme
+- Yasa dışı aktiviteler
+
+### Sorumluluk / Responsibility
+
+Kullanıcı yazılımı kullanarak aşağıdaki şartları kabul etmektedir:
+1. Yazılımı yasal amaçlar için kullanacak
+2. Başkasının haklarını ihlal etmeyecek
+3. Tüm sorumluluğu kendisi alacak
+4. Yazılım geliştiricileri sorumlu tutmayacak
+
+---
+
+**Version**: 1.0.0
+**Updated**: 2024-08-29
+**Status**: Production Ready ✅
+

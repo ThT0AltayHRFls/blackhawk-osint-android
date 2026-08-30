@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="BlackHawk.App"
+    RequestedTheme="Dark">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PageBackgroundColor">#0A0E27</Color>
+            <Color x:Key="PrimaryColor">#00D9FF</Color>
+            <Color x:Key="TextColor">#FFFFFF</Color>
+            <Color x:Key="SecondaryTextColor">#A0AEC0</Color>
+            <Color x:Key="SuccessColor">#48BB78</Color>
+            <Color x:Key="ErrorColor">#F56565</Color>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

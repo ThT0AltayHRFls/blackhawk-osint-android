@@ -1,0 +1,17 @@
+{
+  "app_name": "BlackHawk OSINT",
+  "app_subtitle": "Open Source Intelligence Tool",
+  "welcome": "Welcome to BlackHawk",
+  "search": "Search",
+  "results": "Results",
+  "history": "History",
+  "settings": "Settings",
+  "about": "About",
+  "help": "Help",
+  "notifications": "Notifications",
+  "no_results": "No results found",
+  "loading": "Loading...",
+  "error_no_internet": "No internet connection",
+  "error_search_failed": "Search failed",
+  "success": "Success"
+}

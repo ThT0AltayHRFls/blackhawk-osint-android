@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Colors -->
+    <Color x:Key="PrimaryColor">#00D9FF</Color>
+    <Color x:Key="BackgroundColor">#0A0E27</Color>
+    <Color x:Key="TextColor">#FFFFFF</Color>
+    <Color x:Key="SecondaryTextColor">#A0AEC0</Color>
+    <Color x:Key="SuccessColor">#48BB78</Color>
+    <Color x:Key="ErrorColor">#F56565</Color>
+    <Color x:Key="WarningColor">#ED8936</Color>
+    <Color x:Key="CardBackground">#1A202C</Color>
+    <Color x:Key="BorderColor">#2D3748</Color>
+
+    <!-- Font Sizes -->
+    <x:Double x:Key="TitleFontSize">24</x:Double>
+    <x:Double x:Key="HeadingFontSize">18</x:Double>
+    <x:Double x:Key="LargeFontSize">16</x:Double>
+    <x:Double x:Key="MediumFontSize">14</x:Double>
+    <x:Double x:Key="SmallFontSize">12</x:Double>
+    <x:Double x:Key="TinyFontSize">10</x:Double>
+
+    <!-- Padding & Margins -->
+    <Thickness x:Key="LargePadding">20</Thickness>
+    <Thickness x:Key="MediumPadding">15</Thickness>
+    <Thickness x:Key="SmallPadding">10</Thickness>
+
+    <!-- Button Style -->
+    <Style x:Key="PrimaryButtonStyle" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}" />
+        <Setter Property="TextColor" Value="{StaticResource BackgroundColor}" />
+        <Setter Property="CornerRadius" Value="10" />
+        <Setter Property="Padding" Value="20,10" />
+        <Setter Property="FontSize" Value="{StaticResource MediumFontSize}" />
+        <Setter Property="FontAttributes" Value="Bold" />
+    </Style>
+
+    <Style x:Key="SecondaryButtonStyle" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{StaticResource CardBackground}" />
+        <Setter Property="TextColor" Value="{StaticResource PrimaryColor}" />
+        <Setter Property="BorderColor" Value="{StaticResource PrimaryColor}" />
+        <Setter Property="BorderWidth" Value="1" />
+        <Setter Property="CornerRadius" Value="10" />
+        <Setter Property="Padding" Value="20,10" />
+    </Style>
+
+    <!-- Label Styles -->
+    <Style x:Key="TitleLabelStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+        <Setter Property="FontSize" Value="{StaticResource TitleFontSize}" />
+        <Setter Property="FontAttributes" Value="Bold" />
+    </Style>
+
+    <Style x:Key="HeadingLabelStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+        <Setter Property="FontSize" Value="{StaticResource HeadingFontSize}" />
+        <Setter Property="FontAttributes" Value="Bold" />
+    </Style>
+
+    <Style x:Key="BodyLabelStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource SecondaryTextColor}" />
+        <Setter Property="FontSize" Value="{StaticResource MediumFontSize}" />
+    </Style>
+
+    <!-- Entry Style -->
+    <Style x:Key="PrimaryEntryStyle" TargetType="Entry">
+        <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+        <Setter Property="PlaceholderColor" Value="{StaticResource SecondaryTextColor}" />
+        <Setter Property="FontSize" Value="{StaticResource MediumFontSize}" />
+        <Setter Property="BackgroundColor" Value="{StaticResource CardBackground}" />
+    </Style>
+
+    <!-- SearchBar Style -->
+    <Style x:Key="PrimarySearchBarStyle" TargetType="SearchBar">
+        <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+        <Setter Property="PlaceholderColor" Value="{StaticResource SecondaryTextColor}" />
+        <Setter Property="BackgroundColor" Value="{StaticResource CardBackground}" />
+        <Setter Property="FontSize" Value="{StaticResource MediumFontSize}" />
+    </Style>
+
+</ResourceDictionary>

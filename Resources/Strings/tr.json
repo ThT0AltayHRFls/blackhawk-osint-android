@@ -1,0 +1,17 @@
+{
+  "app_name": "BlackHawk OSINT",
+  "app_subtitle": "Açık Kaynak İstihbarat Aracı",
+  "welcome": "BlackHawk'a Hoş Geldiniz",
+  "search": "Ara",
+  "results": "Sonuçlar",
+  "history": "Geçmiş",
+  "settings": "Ayarlar",
+  "about": "Hakkında",
+  "help": "Yardım",
+  "notifications": "Bildirimler",
+  "no_results": "Sonuç bulunamadı",
+  "loading": "Yükleniyor...",
+  "error_no_internet": "İnternet bağlantısı yok",
+  "error_search_failed": "Arama başarısız",
+  "success": "Başarılı"
+}

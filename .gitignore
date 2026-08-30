@@ -1,0 +1,13 @@
+bin/
+obj/
+*.apk
+*.aab
+*.db3
+.vs/
+.vscode/
+*.suo
+*.user
+.DS_Store
+*.log
+logs/
+config.json

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="BlackHawk.Views.Pages.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#0A0E27"
+    Title="BlackHawk OSINT">
+    <ScrollView>
+        <VerticalStackLayout Padding="24,32" Spacing="18">
+            <Label Text="BLACKHAWK" TextColor="#00D9FF" FontSize="30" FontAttributes="Bold" />
+            <Label Text="Açık kaynak istihbarat kontrol paneli"
+                   TextColor="White" FontSize="17" />
+            <Label Text="Bu sürüm güvenli, çevrimdışı başlangıç paneliyle açılır. Veri sağlayıcıları yapılandırıldığında kartlar canlı kaynaklarla beslenebilir."
+                   TextColor="#A0AEC0" FontSize="14" />
+
+            <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto" ColumnSpacing="12" RowSpacing="12">
+                <Border Grid.Row="0" Grid.Column="0" BackgroundColor="#111A3A" Stroke="#1E376B" StrokeShape="RoundRectangle 14" Padding="16">
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="📊" FontSize="24" />
+                        <Label Text="Araştırmalar" TextColor="White" FontAttributes="Bold" />
+                        <Label Text="Hazır" TextColor="#48BB78" />
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="1" BackgroundColor="#111A3A" Stroke="#1E376B" StrokeShape="RoundRectangle 14" Padding="16">
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="🌍" FontSize="24" />
+                        <Label Text="Küresel görünüm" TextColor="White" FontAttributes="Bold" />
+                        <Label Text="Çevrimdışı" TextColor="#A0AEC0" />
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Row="1" Grid.Column="0" BackgroundColor="#111A3A" Stroke="#1E376B" StrokeShape="RoundRectangle 14" Padding="16">
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="📰" FontSize="24" />
+                        <Label Text="Haber akışı" TextColor="White" FontAttributes="Bold" />
+                        <Label Text="Yapılandırılmayı bekliyor" TextColor="#A0AEC0" FontSize="12" />
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Row="1" Grid.Column="1" BackgroundColor="#111A3A" Stroke="#1E376B" StrokeShape="RoundRectangle 14" Padding="16">
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="🔐" FontSize="24" />
+                        <Label Text="Yerel depolama" TextColor="White" FontAttributes="Bold" />
+                        <Label Text="Güvenli" TextColor="#48BB78" />
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+
+            <Button Text="Arama modülünü yapılandır"
+                    BackgroundColor="#00D9FF"
+                    TextColor="#071126"
+                    CornerRadius="12"
+                    Clicked="OnConfigureClicked" />
+            <Label x:Name="StatusLabel" TextColor="#A0AEC0" FontSize="13" HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
