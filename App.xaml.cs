@@ -6,8 +6,7 @@ namespace BlackHawk
     {
         public App()
         {
-            InitializeComponent();
-            MainPage = new AppShell();
+            MainPage = new StartupPage();
         }
     }
 }

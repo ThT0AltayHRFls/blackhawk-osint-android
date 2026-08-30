@@ -6,8 +6,8 @@
     <SingleProject>true</SingleProject>
     <ApplicationTitle>BlackHawk OSINT</ApplicationTitle>
     <ApplicationId>com.blackhawk.osint</ApplicationId>
-    <ApplicationDisplayVersion>1.0.1</ApplicationDisplayVersion>
-    <ApplicationVersion>2</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0.2</ApplicationDisplayVersion>
+    <ApplicationVersion>3</ApplicationVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <SupportedOSPlatformVersion>26</SupportedOSPlatformVersion>
@@ -25,14 +25,10 @@
   <ItemGroup>
     <Compile Remove="**/*.cs" />
     <Compile Include="App.xaml.cs" />
-    <Compile Include="AppShell.xaml.cs" />
     <Compile Include="MauiProgram.cs" />
     <Compile Include="Platforms/Android/AndroidNotificationChannels.cs" />
     <Compile Include="Platforms/Android/MainActivity.cs" />
-    <Compile Include="Views/Pages/MainPage.xaml.cs" />
+    <Compile Include="StartupPage.cs" />
     <MauiXaml Remove="**/*.xaml" />
-    <MauiXaml Include="App.xaml" />
-    <MauiXaml Include="AppShell.xaml" />
-    <MauiXaml Include="Views/Pages/MainPage.xaml" />
   </ItemGroup>
 </Project>
