@@ -6,8 +6,8 @@
     <SingleProject>true</SingleProject>
     <ApplicationTitle>BlackHawk OSINT</ApplicationTitle>
     <ApplicationId>com.blackhawk.osint</ApplicationId>
-    <ApplicationDisplayVersion>1.0.2</ApplicationDisplayVersion>
-    <ApplicationVersion>3</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0.3</ApplicationDisplayVersion>
+    <ApplicationVersion>4</ApplicationVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <SupportedOSPlatformVersion>26</SupportedOSPlatformVersion>

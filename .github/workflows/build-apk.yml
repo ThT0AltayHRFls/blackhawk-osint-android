@@ -28,7 +28,7 @@ jobs:
         run: dotnet restore BlackHawk.csproj
 
       - name: Publish APK
-        run: dotnet publish BlackHawk.csproj -f net10.0-android -c Release -p:AndroidPackageFormat=apk -p:ApplicationVersion=3 -p:ApplicationDisplayVersion=1.0.2
+        run: dotnet publish BlackHawk.csproj -f net10.0-android -c Release -p:AndroidPackageFormat=apk -p:ApplicationVersion=4 -p:ApplicationDisplayVersion=1.0.3
 
       - name: Prepare release APK
         shell: bash
@@ -37,23 +37,23 @@ jobs:
           mkdir -p release
           APK=$(find bin/Release/net10.0-android -type f -name '*.apk' | head -n 1)
           test -n "$APK"
-          cp "$APK" release/blackhawk-osint-v1.0.2.apk
+          cp "$APK" release/blackhawk-osint-v1.0.3.apk
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: BlackHawk-APK-v1.0.2
-          path: release/blackhawk-osint-v1.0.2.apk
+          name: BlackHawk-APK-v1.0.3
+          path: release/blackhawk-osint-v1.0.3.apk
 
       - name: Publish stable GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.2-build.${{ github.run_number }}
-          name: BlackHawk OSINT v1.0.2 · Build ${{ github.run_number }}
+          tag_name: v1.0.3-build.${{ github.run_number }}
+          name: BlackHawk OSINT v1.0.3 · Build ${{ github.run_number }}
           generate_release_notes: true
           prerelease: false
           fail_on_unmatched_files: true
-          files: release/blackhawk-osint-v1.0.2.apk
+          files: release/blackhawk-osint-v1.0.3.apk
           body: |
             ## BlackHawk OSINT Android
 

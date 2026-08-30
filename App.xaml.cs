@@ -1,3 +1,4 @@
+using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 
 namespace BlackHawk
@@ -6,7 +7,11 @@ namespace BlackHawk
     {
         public App()
         {
-            MainPage = new StartupPage();
+        }
+
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            return new Window(new StartupPage());
         }
     }
 }
